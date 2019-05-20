@@ -17,7 +17,7 @@ namespace JsonToHtmlTable {
                 NullValueHandling = NullValueHandling.Include,
                 Converters = { new ExpandoObjectConverter() }
             };
-            var expando2 = JsonConvert.DeserializeObject<ExpandoObject>(JsonString.Readout,jsonSettings);
+            var expando2 = JsonConvert.DeserializeObject<ExpandoObject>(JsonString.Channels,jsonSettings);
 
             var sb = new StringBuilder();
             NewMethod(sb,expando2);

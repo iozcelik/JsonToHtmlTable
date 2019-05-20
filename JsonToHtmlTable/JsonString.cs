@@ -26,7 +26,7 @@
    ""No"" : ""0025180928F1"",
    ""MD"" : ""0301006973"",
    ""MP"" : ""22250459"",
-   ""CurrentChannel1"" : {
+   ""CurrentChannel1"" : [{
        ""RateTotal"" : 0.03,
        ""Rate1"" : 0.02,
        ""Rate2"" : 0.0,
@@ -36,7 +36,17 @@
        ""Rate6"" : 0.0,
        ""Rate7"" : 0.0,
        ""Rate8"" : 0.0
-   },
+   },{
+       ""RateTotal"" : 0.03,
+       ""Rate1"" : 0.02,
+       ""Rate2"" : 0.0,
+       ""Rate3"" : 0.01,
+       ""Rate4"" : 0.0,
+       ""Rate5"" : 0.0,
+       ""Rate6"" : 0.0,
+       ""Rate7"" : 0.0,
+       ""Rate8"" : 0.0
+   }],
    ""CurrentChannel2"" : {
        ""RateTotal"" : 0.0,
        ""Rate1"" : 0.0,
